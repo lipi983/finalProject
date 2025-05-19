@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page Document</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
+    />
+    <!-- bootstarp css -->
+    <link rel="stylesheet" href="./bootstarp/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg inter">
+        <div class="container">
+          <a class="navbar-brand text" href="#">
+            <img src="./images/Logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./homePage1.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutUs.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="./agents.html"
+                  >Agents</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="#ourTestimonials"
+                  >Testimonial</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="./contactUs.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a href="./propertySelling.html" class="btn propertySell"
+                >Sell Property</a
+              >
+            </form>
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass contact"></i>
+            </a>
+            <a href="./login.html">
+              <i class="fa-solid fa-user contact"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner -->
+      <section class="banner inter">
+        <div class="container2">
+          <div class="bannerContent">
+            <h2>Welcome to Our Website</h2>
+            <h1>Get your <span class="orangeText">Dream</span> Home Easily</h1>
+            <div class="rent">
+              <a href="#" class="btn orangeButton"> Buy </a>
+              <a href="./rent.html" class="btn whiteButton"> Rent </a>
+            </div>
+          </div>
+          <div class="glassEffect">
+            <div class="propertyForm">
+              <form>
+                <div class="type">
+                  <lebel>City</lebel>
+                  <select>
+                    <option value="city">Select</option>
+                    <option value="city">Kolkata</option>
+                    <option value="city">Delhi</option>
+                    <option value="city">Mumbai</option>
+                    <option value="city">Chennai</option>
+                    <option value="city">Hyderabad</option>
+                    <option value="city">Bangalore</option>
+                  </select>
+                </div>
+                <div class="type">
+                  <lebel>Property Type</lebel>
+                  <select>
+                    <option value="propertyType">Select</option>
+                    <option value="propertyType">Flat</option>
+                    <option value="propertyType">House</option>
+                    <option value="propertyType">Villa</option>
+                    <option value="propertyType">Townhouse</option>
+                    <option value="propertyType">Farmhouse</option>
+                  </select>
+                </div>
+                <div class="type">
+                  <lebel>BHK</lebel>
+                  <select>
+                    <option value="bhk">Select</option>
+                    <option value="bhk">4 BHK</option>
+                    <option value="bhk">3 BHK</option>
+                    <option value="bhk">2 BHK</option>
+                    <option value="bhk">1 BHK</option>
+                  </select>
+                </div>
+                <div class="type">
+                  <lebel> Budget </lebel>
+                  <select>
+                    <option value="budget">Select</option>
+                    <option value="budget">90,000</option>
+                    <option value="budget">32 Lacs</option>
+                    <option value="budget">1.02 Cr</option>
+                    <option value="budget">90 Lacs</option>
+                  </select>
+                </div>
+                <div class="type">
+                  <button class="btn orangeButton">
+                    Find Now
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- buy your property -->
+      <section class="buyProperty section_padding inter">
+        <div class="container2">
+          <div class="row">
+            <div class="col buyPropertycontent">
+              <h2>Buy Your Property</h2>
+              <p class="find">
+                Find from houses, flats, villas, townhouses and more
+              </p>
+              <p class="para">
+                Lorem ipsum dolor sit amet consectetur. Amet porta volutpat id
+                volutpat. Ultricies enim nec dictum vitae sit malesuada sit
+                tristique. Ut neque at amet sit. Proin nibh praesent cras risus
+                in massa amet.
+              </p>
+              <a href="./propertyBuying.html" class="btn orangeButton"
+                >Buy Now</a
+              >
+            </div>
+            <div class="col right">
+              <img src="./images/Vector 6.png" class="border" alt="border" />
+              <img src="./images/Vector 7.png" class="border1" alt="border" />
+              <img src="./images/Vector 8.png" class="border2" alt="border" />
+              <img src="./images/Vector 9.png" class="border3" alt="border" />
+              <div class="propertyImage">
+                <div class="leftImage">
+                  <div>
+                    <img src="./images/Rectangle 9 (1).png" alt="property" />
+                  </div>
+                  <div>
+                    <img src="./images/Rectangle 10 (1).png" alt="property" />
+                  </div>
+                </div>
+                <div class="rightImage">
+                  <img src="./images/Rectangle 11 (1).png" alt="property" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Top Properties -->
+      <section class="topProperties section_padding inter">
+        <div class="test">
+          <div class="maintoP">
+            <div class="arow">
+              <a href="#" class="orangeButton">
+                <i class="fa-solid fa-arrow-left"></i>
+              </a>
+            </div>
+            <div class="container2">
+              <div class="row">
+                <h2>Top Properties</h2>
+                <div class="col">
+                  <div class="card">
+                    <a href="./propertySelling.html" class="btn orangeButton"
+                      >For Sale</a
+                    >
+                    <img
+                      src="./images/Rectangle 12 (2).png"
+                      class="card-img-top build"
+                      alt="building"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Decent House</h5>
+                      <p class="card-text">3 BHK | 780 sq ft | Bangalore</p>
+                      <p class="orangeText">₹ 69 - 74 Lacs</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <a href="./propertyRenting.html" class="btn orangeButton"
+                      >For Rent</a
+                    >
+                    <img
+                      src="./images/Rectangle 13.png"
+                      class="card-img-top build"
+                      alt="building"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Modern Appartment</h5>
+                      <p class="card-text">4 BHK | 900 sq ft | Mumbai</p>
+                      <p class="orangeText">₹ 42k/Month</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <a href="./propertyRenting.html" class="btn orangeButton"
+                      >For Rent</a
+                    >
+                    <img
+                      src="./images/Rectangle 14 (3).png"
+                      class="card-img-top build"
+                      alt="building"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Cozy Townhouse</h5>
+                      <p class="card-text">2 BHK | 450 sq ft | Hyderabad</p>
+                      <p class="orangeText">₹ 30k/Month</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="arow">
+              <a href="#" class="orangeButton">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Sell Your Property -->
+      <section class="sellProperty section_padding inter">
+        <div class="container2">
+          <div class="row">
+            <div class="col leftColp">
+              <img src="./images/Vector 5.png" class="border4" alt="border" />
+              <img src="./images/Vector 8.png" class="border5" alt="border" />
+              <img
+                src="./images/Rectangle 15 (1).png"
+                class="sellPro"
+                alt="propertysell"
+              />
+            </div>
+            <div class="col sellContent">
+              <h2>Sell Your Property</h2>
+              <p class="find">
+                Sell from houses, flats, villas, townhouses and more
+              </p>
+              <p class="para">
+                Lorem ipsum dolor sit amet consectetur. Nisi fusce morbi potenti
+                eleifend ornare. Tincidunt amet aliquet quis orci fringilla
+                erat. Condimentum fermentum elit sodales dolor lacus ornare urna
+                ridiculus.
+              </p>
+              <a href="./propertySelling.html" class="btn orangeButton"
+                >Sell Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Explore Famous Cities -->
+      <section class="cities section_padding inter">
+        <div class="container2">
+          <h2>Explore Famous Cities</h2>
+          <div class="row text-center">
+            <div class="col">
+              <img
+                src="./images/Rectangle 16 (2).png"
+                class="city"
+                alt="kolkata"
+              />
+              <h3>Kolkata</h3>
+              <p>50,000+ Properties</p>
+            </div>
+            <div class="col">
+              <img
+                src="./images/Rectangle 17 (1).png"
+                class="city"
+                alt="delhi"
+              />
+              <h3>Delhi</h3>
+              <p>1,20,000+ Properties</p>
+            </div>
+            <div class="col">
+              <img src="./images/Rectangle 18.png" class="city" alt="mumbai" />
+              <h3>Mumbai</h3>
+              <p>68,000+ Properties</p>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col">
+              <img src="./images/Rectangle 21.png" class="city" alt="chennai" />
+              <h3>Chennai</h3>
+              <p>25,000+ Properties</p>
+            </div>
+            <div class="col">
+              <img
+                src="./images/Rectangle 19.png"
+                class="city"
+                alt="bangalore"
+              />
+              <h3>Bangalore</h3>
+              <p>74,000+ Properties</p>
+            </div>
+            <div class="col">
+              <img
+                src="./images/Rectangle 20.png"
+                class="city"
+                alt="hyderabad"
+              />
+              <h3>Hyderabad</h3>
+              <p>46,000+ Properties</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Rent A Property -->
+      <section class="rent section_padding inter">
+        <div class="container2">
+          <div class="row">
+            <div class="col buyPropertycontent">
+              <h2>Rent A Property</h2>
+              <p class="find">
+                Find from houses, flats, villas, townhouses and more
+              </p>
+              <p class="para">
+                Lorem ipsum dolor sit amet consectetur. Amet porta volutpat id
+                volutpat. Ultricies enim nec dictum vitae sit malesuada sit
+                tristique. Ut neque at amet sit. Proin nibh praesent cras risus
+                in massa amet.
+              </p>
+              <a href="./propertyRenting.html" class="btn orangeButton"
+                >Rent Now</a
+              >
+            </div>
+            <div class="col right">
+              <img src="./images/Vector 6.png" class="border" alt="border" />
+              <img src="./images/Vector 7.png" class="border1" alt="border" />
+              <img src="./images/Vector 8.png" class="border2" alt="border" />
+              <img src="./images/Vector 9.png" class="border3" alt="border" />
+              <div class="propertyImage">
+                <div class="rightImage">
+                  <img src="./images/Rectangle 23.png" alt="property" />
+                </div>
+                <div class="leftImage">
+                  <div>
+                    <img src="./images/Rectangle 22.png" alt="property" />
+                  </div>
+                  <div>
+                    <img src="./images/Rectangle 24.png" alt="property" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Why Choose Us -->
+      <section class="choose section_padding inter">
+        <div class="container2">
+          <h2>Why Choose Us</h2>
+          <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur. Massa malesuada facilisis ut
+            vestibulum aliquam nunc euismod.
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./images/findHome.png"
+                  class="card-img-top"
+                  alt="search"
+                />
+                <div class="card-body">
+                  <h5 class="card-title orangeText">Find Your Future Home</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./images/experienceAgent.png"
+                  class="card-img-top"
+                  alt="agent"
+                />
+                <div class="card-body">
+                  <h5 class="card-title orangeText">Experienced Agents</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./images/dealClosed.png"
+                  class="card-img-top"
+                  alt="deal"
+                />
+                <div class="card-body">
+                  <h5 class="card-title orangeText">Deal Closed</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card verifi">
+                <img
+                  src="./images/verified.png"
+                  class="card-img-top"
+                  alt="verify"
+                />
+                <div class="card-body">
+                  <h5 class="card-title orangeText">Verified By Our Team</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Testimonials -->
+      <section class="testimonials section_padding inter" id="ourTestimonials">
+        <div class="test">
+          <h2>Our Testimonials</h2>
+          <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur. Eleifend interdum nulla
+            libero dolor duis sapien et.
+          </p>
+          <div class="maintoP">
+            <div class="arow">
+              <a href="#" class="orangeButton">
+                <i class="fa-solid fa-arrow-left"></i>
+              </a>
+            </div>
+            <div class="container2">
+              <div class="row">
+                <div class="col">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Semper arcu erat cum
+                    lorem. Consectetur hendrerit elementum viverra pulvinar
+                    facilisi mi convallis in integer.
+                  </p>
+                  <div class="star star2">
+                    <div>
+                      <img src="./images/Rectangle 44.png" alt="man" />
+                    </div>
+                    <div>
+                      <p>Edward Blake</p>
+                      <p class="orangeText">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Orci velit eget
+                    rhoncus dui vel nibh congue. Euismod a morbi sed sed lectus
+                    cursus sed adipiscing.
+                  </p>
+                  <div class="star star2">
+                    <div>
+                      <img src="./images/Rectangle 44 (1).png" alt="man" />
+                    </div>
+                    <div>
+                      <p>Albert Rhett</p>
+                      <p class="orangeText">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="greyStar">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Purus risus rutrum
+                    nulla ullamcorper ullamcorper at lacus. Molestie aenean elit
+                    diam convallis amet. Adipiscing et tincidunt amet at enim.
+                  </p>
+                  <div class="star star1">
+                    <div>
+                      <img src="./images/Rectangle 44 (2).png" alt="man" />
+                    </div>
+                    <div>
+                      <p>Henry Gray</p>
+                      <p class="orangeText">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="greyStar">
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="arow">
+              <a href="#" class="orangeButton">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </section>
+      <!-- Download Our App -->
+      <section class="app section_padding inter">
+        <div class="container2">
+          <h2>Download Our App</h2>
+          <p class="appPara">
+            <i class="fa-solid fa-check correct"></i>
+            Lorem ipsum dolor sit amet consectetur.
+          </p>
+          <p class="appPara">
+            <i class="fa-solid fa-check correct"></i>
+            Mauris morbi velit facilisis enim sagittis.
+          </p>
+          <div class="appMain">
+            <div class="store">
+              <div>
+                <img src="./images/Group (32).png" alt="app" />
+              </div>
+              <div>
+                <p class="get">GET IT ON</p>
+                <p class="google">Google Play</p>
+              </div>
+            </div>
+            <div class="store">
+              <div>
+                <img src="./images/Vector (6).png" alt="app" />
+              </div>
+              <div>
+                <p class="get getDo">Download on the</p>
+                <p class="google">App Store</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer inter">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <a href="#" class="mb-3">
+                <img src="./images/Logo.png" alt="logo" />
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Dolor cursus consectetur
+                et arcu quis netus at. Tellus felis elementum eget turpis amet.
+                Duis eget neque quisque eget ipsum enim.
+              </p>
+              <!-- <ul class="contactIcon"> -->
+              <p>
+                <a href="#"> <i class="fa-solid fa-location-dot"></i></a>
+                Lorem ipsum, dolor sit amet, consectetur
+              </p>
+              <p>
+                <a href="#"> <i class="fa-solid fa-phone"></i></a>
+                +91 0011001100
+              </p>
+              <p>
+                <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+                happyhome@gmail.com
+              </p>
+              <!-- </ul> -->
+            </div>
+            <div class="col">
+              <p class="paraFotter companySer">Company</p>
+              <ul>
+                <li><a href="./aboutUs.html">About</a></li>
+                <li><a href="#">Our Vision</a></li>
+                <li><a href="./agents.html">Agents</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FaQs</a></li>
+                <li><a href="./contactUs.html">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <p class="paraFotter companySer">Services</p>
+              <ul>
+                <li><a href="#">House for Rent</a></li>
+                <li><a href="#">House for Sale</a></li>
+                <li><a href="#">Villas for Rent</a></li>
+                <li><a href="#">Villas for Sale</a></li>
+                <li><a href="#">Flats for Rent</a></li>
+                <li><a href="#">Flats for Sale</a></li>
+                <li><a href="#">Townhouse for Sale</a></li>
+              </ul>
+            </div>
+            <div class="col reach">
+              <p class="paraFotter">Reach Out to Us</p>
+              <a href="#">
+                <img
+                  src="./images/facebook-round_svgrepo.com.png"
+                  alt="facebook"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./images/twitter-circle_svgrepo.com.png"
+                  alt="twitter"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./images/instagram-round_svgrepo.com.png"
+                  alt="instagram"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./images/youtube-round_svgrepo.com.png"
+                  alt="youtube"
+                />
+              </a>
+              <p class="paraFotter newsLett">Newsletter Subscribe</p>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Email"
+                  aria-label="Recipient’s username"
+                  aria-describedby="button-addon2"
+                />
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary orangeButton"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Submit
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="copy">&#169; 2024 HappyHome. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- popper cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstarp js -->
+    <script src="./bootstarp/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- js -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

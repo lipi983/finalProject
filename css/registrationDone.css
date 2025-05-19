@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.registration{
+    background-color: #FFEBC5;
+    width: 38%;
+    margin:40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(165, 165, 165);
+}
+.cross{
+    text-align: right;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.account{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: auto;
+}
+.creatAccount{
+     background-color: #FFA600;
+    color: white;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color:#FFA600;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+.creatAccount a{
+    color: white;
+}
+.creatAccount:hover{
+   
+     text-decoration: none;
+    color:#FFA600;
+    border:2px solid  #FFA600;
+    background-color:white;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+.login{
+    text-align: center;
+}
+.login a{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.agree{
+    font-size: 16px !important;
+}
+::placeholder{
+    color: black !important;
+}
+.password::placeholder{
+    font-size: 50px;
+} 
+@media screen and (max-width:991px){
+    .registration{
+        width: 50%;
+        padding: 15px;
+    }
+}
+@media screen and (max-width:575px){
+    .registration{
+        width: 90%;
+    }
+}

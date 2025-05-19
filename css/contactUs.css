@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orange:#FFA600;
+    --textColor:rgb(162, 160, 160);
+    --grey:#D6D2D2;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.section_padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.orangeText{
+    color: var(--orange);
+}
+.orangeButton{
+    background-color: var(--orange);
+    color: white;
+}
+.orangeButton:hover{
+    background-color: white;
+    color: var(--orange);
+    border: 2px solid var(--orange);
+}
+/* Navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+}
+.navbar ul li{
+    list-style: none;
+}
+.text{
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    line-height: auto;
+    font-weight: 500;
+    color: white;
+}
+.home{
+    color: var(--orange);
+    font-size: 42px;
+}
+.navbar .nav-item a{
+    font-size: 22px;
+    font-weight: 500;
+    padding:0 20px !important;
+    color: white !important;
+}
+.propertySell{
+    border: 3px solid var(--orange);
+    font-weight: 500;
+    color: white;
+    transition: background-color 0.3s, 
+    transform 0.3s;
+}
+.propertySell:hover{
+    color: white;
+    border: none;
+    background-image: repeating-linear-gradient(to right, var(--orange), black);
+    box-shadow: 0 5px 8px rgb(223, 220, 220);
+}
+.contact{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.contact:hover{
+    background-color: #FFA600;
+    color: white;
+}
+.active{
+    border-bottom: 3px solid var(--orange);
+}
+.nav-item a:hover{
+    border-bottom: 3px solid var(--orange);
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(90, 89, 89);
+    z-index: 99999;
+    border-top: 0;
+}
+/* banner */
+.banner{
+    background-image: url('../images/Group\ 57\ \(4\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-bottom: 130px;
+}
+.home1 img{
+    width: 20px;
+    display: inline-block;
+}
+.banner a{
+    color: white;
+    font-size: 20px;
+    margin-top: 35px;
+}
+.home1{
+    color: white;
+}
+/* our Office*/
+.officeHours{
+    display: flex;
+}
+.office h2{
+    padding-bottom: 35px !important;
+    margin-left: 50px;
+}
+.map1{
+    max-width: 600px !important;
+    width: 100%;
+    min-height: 357px !important;
+}
+.office .btn{
+    margin-top: 30px !important;
+    box-shadow: 0 10px 10px rgb(60, 60, 60);
+}
+.office .btn:hover{
+    color: white;
+    border: none;
+    background-image: repeating-linear-gradient(to right, var(--orange), black);
+    box-shadow: 0 5px 8px rgb(59, 59, 59);
+}
+.time{
+    margin-left: 100px;
+}
+.day{
+    position: relative;
+}
+.day::after{
+    content: "";
+    width: 2px;
+    height: 80%;
+    background: black;
+    position: absolute;
+    left: 130%;
+    top: 10%;
+}
+.details{
+    font-size: 24px;
+}
+.loremP{
+    max-width: 392px;
+    width: 100%;
+}
+.greyText{
+    color: var(--textColor);
+}
+section h2{
+    font-size: 36px;
+}
+.office .row{
+    margin: 0 50px;
+}
+.col{
+    margin: 20px auto;
+}
+/* send us a message */
+.message h2{
+    margin-bottom: 35px;
+}
+.messageForm{
+    background-image: linear-gradient(to bottom, #FFEBC5, #f9f3e7);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.messagecontent{
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+}
+#textarea{
+    position: relative;
+}
+.contactForm{
+    position: relative;
+}
+.name{
+    position: relative;
+}
+.user{
+    position: absolute;
+    left: 45%;
+    margin-top: -35px;
+    transform: translateX(-45%);
+}
+.city{
+    position: relative;
+}
+.location{
+    position: absolute;
+    right: 2%;
+    margin-top: -33px;
+   transform: translateX(-2%);
+}
+.mail{
+    position: relative;
+}
+.envelope{
+    position: absolute;
+    left: 43%;
+    margin-top: -30px;
+    transform: translateX(-43%);
+    
+}
+.error{
+    color: #FFA600;
+}
+.number{
+    position: relative;
+}
+.phone{
+    position: absolute;
+    right: 2%;
+    margin-top: -30px;
+    transform: translateX(-2%);
+}
+.writeText{
+    position: absolute;
+    right: 2%;
+    margin-top: -80px;
+    transform: translateX(-2%);
+}
+input{
+    display: block;
+    width: 100%;
+}
+input[type="submit"]{
+    width: 20%;
+    margin: auto !important;
+    background-color: var(--orange);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    
+}
+.messageForm #send{
+    margin: auto;
+}
+/* Footer */
+.footer{
+    background-image: url('../images/Group\ 57\ \(2\).png');
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+}
+.footer .orangeButton{
+    margin: 0;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.footer .orangeButton:hover{
+    color: white;
+    background-color: black;
+}
+.footer ul{
+    list-style: none;
+}
+.col{
+    margin: 20px auto !important;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color: #FFA600;
+}
+.footer a img:hover{
+    color: #FFA600;
+}
+.footer ul li a{
+    color: white;
+    margin-bottom: 10px;
+}
+.paraFotter{
+    font-size: 25px !important;
+    font-weight: 500 !important;
+}
+.companySer{
+    margin-left: 30px;
+}
+.newsLett{
+    margin-top: 30px;
+}
+.copy{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.reach a img{
+    width: 40px;
+}
+.reach a{
+    margin-right: 10px;
+}
+.reach a img:hover{
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 0 15px white;
+}
+.footer .btn:hover{
+    color: white;
+    background-image: repeating-linear-gradient(to right, var(--orange), black);
+}
+
+@media screen and (max-width:767px){
+    .office .row{
+        margin: 0;
+    }
+    .office h2{
+        margin: 35px 0;
+    }
+}
+@media screen and (max-width:575px){
+    .office .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:489px){
+    .envelope{
+    position: absolute;
+    left: 40%;
+   transform: translateX(-40%);
+   }
+   .user{
+    position: absolute;
+    left: 40%;
+    transform: translateX(-40%);
+  }
+  .text img{
+    width: 160px;
+  }
+}

@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Property Buying Document</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
+    />
+    <!-- bootstarp css -->
+    <link rel="stylesheet" href="./bootstarp/css/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/propertyBuying.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg inter">
+        <div class="container">
+          <a class="navbar-brand text" href="#">
+            <img src="./images/Logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./aboutUs.html" class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="./agents.html" class="nav-link" aria-disabled="true"
+                  >Agents</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="#"
+                  >Testimonial</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./contactUs.html" class="nav-link" aria-disabled="true"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search"> -->
+            <a href="./propertySelling.html" class="btn propertySell"
+              >Sell Property</a
+            >
+            <!-- </form> -->
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass contact"></i>
+            </a>
+            <a href="./login.html">
+              <i class="fa-solid fa-user contact"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner -->
+      <section class="banner section_padding inter">
+        <div class="container">
+          <h1>Buy Your Property</h1>
+          <a href="./index.html" class="home1">
+            <img src="./images/house-sun_svgrepo.com.png" alt="house" />
+            Home
+          </a>
+          <a href="#"> > <span class="orangeText">Buy Property</span> </a>
+        </div>
+      </section>
+      <!-- 3200 Results | Flats for Sale in Kolkata -->
+      <section class="property section_padding inter">
+        <div class="container">
+          <div class="mainProperty">
+            <div class="filter">
+              <h3 class="ps-3">
+                <img
+                  src="./images/filter-filled-tool-symbol_svgrepo.com.png"
+                  alt="filter"
+                  class="filterImage"
+                />
+                Filters
+              </h3>
+              <hr />
+              <div class="filterSection">
+                <div class="city">
+                  <p class="type">City</p>
+                  <button class="dropDown1">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </button>
+                  <button class="angleUp1">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+                <form class="cityProperty">
+                  <input type="radio" name="city" id="kolkata" />
+                  <lebel>Kolkata</lebel><br />
+
+                  <input type="radio" name="city" id="bangalore" />
+                  <lebel>Bangalore</lebel><br />
+
+                  <input type="radio" name="city" id="chennai" />
+                  <lebel>Chennai</lebel><br />
+
+                  <input type="radio" name="city" id="hyderabad" />
+                  <lebel>Hyderabad</lebel><br />
+                  <button class="orangeText moreCity">+6 more</button>
+                </form>
+
+                <form class="mumbai">
+                  <input type="radio" name="city" id="hyderabad" />
+                  <lebel>Mumbai</lebel><br />
+
+                  <input type="radio" name="city" id="hyderabad" />
+                  <lebel>Delhi</lebel><br />
+
+                  <input type="radio" name="city" id="hyderabad" />
+                  <lebel>Jaipur</lebel><br />
+
+                  <input type="radio" name="city" id="hyderabad" />
+                  <lebel>Lacknow</lebel><br />
+
+                  <input type="radio" name="city" id="hyderabad" />
+                  <lebel>Surat</lebel><br />
+
+                  <input type="radio" name="city" id="hyderabad" />
+                  <lebel>Nagpur</lebel><br />
+                </form>
+              </div>
+              <hr />
+              <div class="filterSection">
+                <div class="city">
+                  <p class="type">Property Type</p>
+                  <button class="dropDown2">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </button>
+                  <button class="angleUp2">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+                <form class="flat">
+                  <input type="radio" name="propertyType" id="flat" />
+                  <lebel>Flat</lebel><br />
+                  <input type="radio" name="propertyType" id="house" />
+                  <lebel>House</lebel><br />
+                  <input type="radio" name="propertyType" id="villa" />
+                  <lebel>Villa</lebel><br />
+                  <input type="radio" name="propertyType" id="townhouse" />
+                  <lebel>Townhouse</lebel><br />
+                  <input type="radio" name="propertyType" id="farmhouse" />
+                  <lebel>Farmhouse</lebel><br />
+                </form>
+              </div>
+              <hr />
+              <div class="filterSection">
+                <div class="city">
+                  <p class="type">BHK</p>
+                  <button class="dropDown3">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </button>
+                  <button class="angleUp3">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+                <div class="bedHallkit">
+                  <p class="">
+                    <a href="#" class="btn bhk">1BHK</a>
+                    <a href="#" class="btn bhk">2BHK</a>
+                    <a href="#" class="btn bhk">3BHK</a>
+                  </p>
+                  <p>
+                    <a href="#" class="btn bhk">4BHK</a>
+                    <a href="#" class="btn bhk">5BHK</a>
+                    <a href="#" class="btn bhk">6BHK</a>
+                  </p>
+                  <button class="orangeText moreBhk">+2 more</button>
+                  <p class="bhk6">
+                    <a href="#" class="btn bhk">6BHK</a>
+                    <a href="#" class="btn bhk">7BHK</a>
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="filterSection">
+                <div class="city">
+                  <p class="type">Budget</p>
+                  <button class="dropDown4">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </button>
+                  <button class="angleUp4">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+                <div class="maxRange">
+                  <div class="range">
+                    <div><p>Min</p></div>
+                    <div>
+                      <p>Max</p>
+                    </div>
+                  </div>
+                  <!-- <input type="range" min="0" max="4cr" step="1" /> -->
+                  <img src="./images/Group 59 (1).png" alt="range" />
+                  <div class="range">
+                    <div>
+                      <p>0</p>
+                    </div>
+                    <div>
+                      <p>4 cr</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+
+              <div class="filterSection">
+                <div class="city">
+                  <p class="type">Area(sq ft)</p>
+                  <button class="dropDown5">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </button>
+                  <button class="angleUp5">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+                <div class="areaSq">
+                  <select>
+                    <option value="area">Min</option>
+                    <option value="area"></option>
+                    <option value="area"></option>
+                  </select>
+                  to
+                  <select>
+                    <option value="area">Max</option>
+                    <option value="area"></option>
+                    <option value="area"></option>
+                  </select>
+                </div>
+              </div>
+              <hr />
+              <div class="filterSection">
+                <div class="city">
+                  <p class="type">Posted By</p>
+                  <button class="dropDown6">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </button>
+                  <button class="angleUp6">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+                <form class="posted">
+                  <input type="radio" name="propertyType" id="flat" />
+                  <lebel>Owner</lebel><br />
+                  <input type="radio" name="propertyType" id="house" />
+                  <lebel>Agent</lebel><br />
+                  <input type="radio" name="propertyType" id="villa" />
+                  <lebel>Builder</lebel>
+                </form>
+              </div>
+              <hr />
+              <div class="filterSection">
+                <div class="city">
+                  <p class="type">Amenities</p>
+                  <button class="dropDown7">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </button>
+                  <button class="angleUp7">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+                <form class="aminities">
+                  <input type="radio" name="propertyType" id="flat" />
+                  <lebel>Parking</lebel><br />
+                  <input type="radio" name="propertyType" id="house" />
+                  <lebel>Lift</lebel><br />
+                  <input type="radio" name="propertyType" id="villa" />
+                  <lebel>Park</lebel><br />
+                  <input type="radio" name="propertyType" id="townhouse" />
+                  <lebel>Swimming Pool</lebel><br />
+                  <button class="orangeText aminitiesMore">+4 more</button>
+                  <div class="moream">
+                    <input type="radio" name="propertyType" id="flat" />
+                    <lebel>Parking</lebel><br />
+                    <input type="radio" name="propertyType" id="house" />
+                    <lebel>Lift</lebel><br />
+                    <input type="radio" name="propertyType" id="villa" />
+                    <lebel>Park</lebel><br />
+                    <input type="radio" name="propertyType" id="townhouse" />
+                    <lebel>Swimming Pool</lebel><br />
+                  </div>
+                </form>
+              </div>
+              <hr />
+              <div class="filterSection">
+                <div class="city">
+                  <p class="type">Bathroom</p>
+                  <button class="dropDown8">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </button>
+                  <button class="angleUp8">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+                <form class="bathroom">
+                  <input type="radio" name="propertyType" id="flat" />
+                  <lebel>Small Bathroom with Allover Tile</lebel><br />
+                  <input type="radio" name="propertyType" id="house" />
+                  <lebel>Industrial Bathroom</lebel><br />
+                  <input type="radio" name="propertyType" id="villa" />
+                  <lebel>Corner Shower</lebel><br />
+                  <input type="radio" name="propertyType" id="townhouse" />
+                  <lebel>Floating Vanity</lebel><br />
+                </form>
+                <!-- </div> -->
+              </div>
+              <hr />
+              <div class="filterSection">
+                <div class="city">
+                  <p class="type">Furnishing</p>
+                  <button class="dropDown9">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </button>
+                  <button class="angleUp9">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+                <form class="furnising">
+                  <input type="radio" name="propertyType" id="flat" />
+                  <lebel>Sofas</lebel><br />
+                  <input type="radio" name="propertyType" id="house" />
+                  <lebel>Chairs</lebel><br />
+                  <input type="radio" name="propertyType" id="villa" />
+                  <lebel>Beds</lebel><br />
+                  <input type="radio" name="propertyType" id="townhouse" />
+                  <lebel>Window Treatments</lebel><br />
+                </form>
+              </div>
+              <!-- </div> -->
+            </div>
+            <div class="results">
+              <p class="ps-3">3200 Results | Flats for Sale in Kolkata</p>
+              <div class="sort">
+                <span>
+                  <img
+                    src="./images/filter_svgrepo.com.png"
+                    alt="bar"
+                    class="filterImage"
+                  />
+                  Sort By:Default
+                  <i class="fa-solid fa-angle-down"></i>
+                </span>
+              </div>
+              <div class="flats">
+                <div class="flatImage">
+                  <img src="./images/Rectangle 68.png" alt="flat" />
+                </div>
+                <div class="apertment">
+                  <h4>
+                    Diamond Apartment
+                    <i class="fa-regular fa-heart orangeText icon"></i>
+                    <i class="fa-solid fa-share orangeText icon"></i>
+                  </h4>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-location-dot location"></i>
+                      Vivamus turpis nulla, Kolkata
+                    </li>
+                    <li>
+                      <img
+                        src="./images/bed_svgrepo.com.png"
+                        class="bed"
+                        alt="bed"
+                      />
+                      4 BHK | 836 sq ft | 2 Bathrooms
+                    </li>
+                  </ul>
+                  <p>
+                    Purus adipiscing amet urna platea. Ullamcorper mauris quis
+                    pretium in viverra netus nibh.
+                  </p>
+                </div>
+                <div class="rupees rounded-end-4">
+                  <p class="lacs">₹ 81 Lacs</p>
+                  <p>₹ 6,124 / sq ft</p>
+                  <a href="./propertyDetails.html" class="btn orangeButton"
+                    >View Details</a
+                  >
+                  <a href="#" class="btn whiteButton">Contact</a>
+                </div>
+              </div>
+              <div class="flats">
+                <div class="flatImage">
+                  <img src="./images/Rectangle 68 (1).png" alt="flat" />
+                </div>
+                <div class="apertment">
+                  <h4>
+                    GM Paradise
+                    <i class="fa-regular fa-heart orangeText icon"></i>
+                    <i class="fa-solid fa-share orangeText icon"></i>
+                  </h4>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-location-dot location"></i>
+                      Amet id morbi viverra, Kolkata
+                    </li>
+                    <li>
+                      <img
+                        src="./images/bed_svgrepo.com.png"
+                        class="bed"
+                        alt="bed"
+                      />
+                      2 BHK | 620 sq ft | 1 Bathroom
+                    </li>
+                  </ul>
+                  <p>
+                    Donec pharetra volutpat viverra in et nibh id nec duis.
+                    Tellus sodales nisi tellus viverra viverra ipsum nulla id.
+                  </p>
+                </div>
+                <div class="rupees rounded-end-4">
+                  <p class="lacs">₹ 32 Lacs</p>
+                  <p>₹ 3,250 / sq ft</p>
+                  <a href="./propertyDetails.html" class="btn orangeButton"
+                    >View Details</a
+                  >
+                  <a href="#" class="btn whiteButton">Contact</a>
+                </div>
+              </div>
+              <div class="flats">
+                <div class="flatImage">
+                  <img src="./images/Rectangle 68 (2).png" alt="flat" />
+                </div>
+                <div class="apertment">
+                  <h4>
+                    Gokul Apartment
+                    <i class="fa-regular fa-heart orangeText icon"></i>
+                    <i class="fa-solid fa-share orangeText icon"></i>
+                  </h4>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-location-dot location"></i>
+                      Sollicitudin vitae, Kolkata
+                    </li>
+                    <li>
+                      <img
+                        src="./images/bed_svgrepo.com.png"
+                        class="bed"
+                        alt="bed"
+                      />
+                      3 BHK | 780 sq ft | 2 Bathrooms
+                    </li>
+                  </ul>
+                  <p>
+                    Tempor risus ac enim est. Purus at sagittis vestibulum
+                    elementum pellentesque sed rhoncus. .
+                  </p>
+                </div>
+                <div class="rupees rounded-end-4">
+                  <p class="lacs">₹ 47 Lacs</p>
+                  <p>₹ 5,400 / sq ft</p>
+                  <a href="./propertyDetails.html" class="btn orangeButton"
+                    >View Details</a
+                  >
+                  <a href="#" class="btn whiteButton">Contact</a>
+                </div>
+              </div>
+              <div class="flats">
+                <div class="flatImage">
+                  <img src="./images/Rectangle 68 (3).png" alt="flat" />
+                </div>
+                <div class="apertment">
+                  <h4>
+                    Natural Quest
+                    <i class="fa-regular fa-heart orangeText icon"></i>
+                    <i class="fa-solid fa-share orangeText icon"></i>
+                  </h4>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-location-dot location"></i>
+                      Dolor sit egestas, Kolkata
+                    </li>
+                    <li>
+                      <img
+                        src="./images/bed_svgrepo.com.png"
+                        class="bed"
+                        alt="bed"
+                      />
+                      3 BHK | 755 sq ft | 1 Bathroom
+                    </li>
+                  </ul>
+                  <p>
+                    Fringilla molestie imperdiet fringilla odio lectus donec.
+                    Ipsum arcu pellentesque id sit bibendum facilisis viverra
+                    commodo.
+                  </p>
+                </div>
+                <div class="rupees rounded-end-4">
+                  <p class="lacs">₹ 54 Lacs</p>
+                  <p>₹ 5,608 / sq ft</p>
+                  <a href="./propertyDetails.html" class="btn orangeButton"
+                    >View Details</a
+                  >
+                  <a href="#" class="btn whiteButton">Contact</a>
+                </div>
+              </div>
+              <div class="flats">
+                <div class="flatImage">
+                  <img src="./images/Rectangle 68 (4).png" alt="flat" />
+                </div>
+                <div class="apertment">
+                  <h4>
+                    Whispering Winds
+                    <i class="fa-regular fa-heart orangeText icon"></i>
+                    <i class="fa-solid fa-share orangeText icon"></i>
+                  </h4>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-location-dot location"></i>
+                      Imperdiet urna netus, Kolkata
+                    </li>
+                    <li>
+                      <img
+                        src="./images/bed_svgrepo.com.png"
+                        class="bed"
+                        alt="bed"
+                      />
+                      4 BHK | 902 sq ft | 2 Bathrooms
+                    </li>
+                  </ul>
+                  <p>
+                    Ullamcorper semper neque eget nam quam enim purus faucibus.
+                    Amet auctor felis sapien imperdiet a sed tempus lectus.
+                    Vivamus odio pretium.
+                  </p>
+                </div>
+                <div class="rupees rounded-end-4">
+                  <p class="lacs">₹ 1.04 Cr</p>
+                  <p>₹ 8,550 / sq ft</p>
+                  <a href="./propertyDetails.html" class="btn orangeButton"
+                    >View Details</a
+                  >
+                  <a href="#" class="btn whiteButton">Contact</a>
+                </div>
+              </div>
+              <p>Page 1 of 140</p>
+              <p class="text-center">
+                <a href="#" class="circle orangeButton">1</a>
+                <a href="#" class="circle whiteButton">2</a>
+                <a href="#" class="circle whiteButton">3</a>
+                <a href="#" class="circle whiteButton">4</a>
+                <a href="#" class="circle whiteButton">5</a>
+                Next Page
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer inter">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p class="text">
+                <i class="fa-solid fa-house home"></i>
+                HappyHome
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Dolor cursus consectetur
+                et arcu quis netus at. Tellus felis elementum eget turpis amet.
+                Duis eget neque quisque eget ipsum enim.
+              </p>
+              <!-- <ul class="contactIcon"> -->
+              <p>
+                <a href="#"> <i class="fa-solid fa-location-dot"></i></a>
+                Lorem ipsum, dolor sit amet, consectetur
+              </p>
+              <p>
+                <a href="#"> <i class="fa-solid fa-phone"></i></a>
+                +91 0011001100
+              </p>
+              <p>
+                <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+                happyhome@gmail.com
+              </p>
+              <!-- </ul> -->
+            </div>
+            <div class="col">
+              <p class="paraFotter companySer">Company</p>
+              <ul>
+                <li><a href="./aboutUs.html">About</a></li>
+                <li><a href="#">Our Vision</a></li>
+                <li><a href="./agents.html">Agents</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FaQs</a></li>
+                <li><a href="./contactUs.html">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <p class="paraFotter companySer">Services</p>
+              <ul>
+                <li><a href="#">House for Rent</a></li>
+                <li><a href="#">House for Sale</a></li>
+                <li><a href="#">Villas for Rent</a></li>
+                <li><a href="#">Villas for Sale</a></li>
+                <li><a href="#">Flats for Rent</a></li>
+                <li><a href="#">Flats for Sale</a></li>
+                <li><a href="#">Townhouse for Sale</a></li>
+              </ul>
+            </div>
+            <div class="col reach">
+              <p class="paraFotter">Reach Out to Us</p>
+              <a href="#">
+                <img
+                  src="./images/facebook-round_svgrepo.com.png"
+                  alt="facebook"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./images/twitter-circle_svgrepo.com.png"
+                  alt="twitter"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./images/instagram-round_svgrepo.com.png"
+                  alt="instagram"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./images/youtube-round_svgrepo.com.png"
+                  alt="youtube"
+                />
+              </a>
+              <p class="paraFotter newsLett">Newsletter Subscribe</p>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Email"
+                  aria-label="Recipient’s username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-outline-secondary orangeButton"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr style="border: 1px solid white" />
+        <p class="copy">&#169; 2024 HappyHome. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- popper cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstarp js -->
+    <script src="./bootstarp/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- js -->
+    <script src="./js/propertyBuying.js"></script>
+  </body>
+</html>

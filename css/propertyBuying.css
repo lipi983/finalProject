@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orange:#FFA600;
+    --textColor:rgb(162, 160, 160);
+    --grey:#D6D2D2;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.section_padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.orangeText{
+    color: var(--orange);
+}
+.orangeButton{
+    background-color: var(--orange);
+    color: white;
+}
+.orangeButton:hover{
+    background-color: white;
+    color: var(--orange);
+    border: 2px solid var(--orange);
+}
+/* Navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+}
+.navbar ul li{
+    list-style: none;
+}
+.text{
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    line-height: auto;
+    font-weight: 500;
+    color: white;
+}
+.home{
+    color: var(--orange);
+    font-size: 42px;
+}
+.navbar .nav-item a{
+    font-size: 22px;
+    font-weight: 500;
+    padding:0 20px !important;
+    color: white !important;
+}
+.propertySell{
+    border: 3px solid var(--orange);
+    font-weight: 500;
+    color: white;
+}
+.propertySell:hover{
+    color: white;
+    border: none;
+    background-image: repeating-linear-gradient(to right, var(--orange), black);
+    box-shadow: 0 5px 8px rgb(223, 220, 220);
+}
+.contact{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.contact:hover{
+    background-color: #FFA600;
+    color: white;
+}
+.active{
+    border-bottom: 3px solid var(--orange);
+}
+.nav-item a:hover{
+    border-bottom: 3px solid var(--orange);
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(90, 89, 89);
+    z-index: 99999;
+    border-top: 0;
+}
+.whiteButton{
+    box-shadow: 0 5px 10px rgb(55, 55, 55);
+}
+/* banner */
+.banner{
+    background-image: url('../images/Group\ 57\ \(5\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-bottom: 130px;
+}
+.home1 img{
+    width: 20px;
+    display: inline-block;
+}
+.banner a{
+    color: white;
+    font-size: 20px;
+    margin-top: 35px;
+}
+.home1{
+    color: white;
+}
+/* sidebar */
+.filter{
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 6px;
+    /* padding: 20px 0; */
+    padding-top: 20px;
+}
+.active{
+    color: #FFA600 !important;
+}
+.type{
+    font-weight: bold;
+    font-size: 20px;
+}
+.orangeText{
+    color: var(--orange) !important;
+}
+.filter a{
+    color: var(--orange);
+}
+.filter h3{
+    margin-top: 0;
+}
+.filterImage{
+    width: 20px;
+}
+.filterSection{
+    margin-bottom: 20px;
+    padding:0 20px;
+}
+.bhk{
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+.filter select{
+    padding-right: 28px;
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+}
+.filterSection lebel{
+    /* display: block; */
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-size: 18px;
+}
+.filterSection input[type="number"]{
+    max-width: 70px;
+    width: 100%;
+    margin: 0 5px 5px 0;
+    padding: 5px;
+}
+.orangeRadio{
+    color: #FFA600 !important;
+}
+.range{
+    display: flex;
+    justify-content: space-between;
+}
+.filterSection input[type="range"]{
+    width: 100%;
+}
+.filterSection a{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+.bedHallkit .bkh{
+    border-radius: 30px;
+}
+.bhk{
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgb(77, 77, 77);
+}
+.angleUp1{
+    display: none;
+}
+.angleUp2{
+    display: none;
+}
+.mumbai{
+    display: none;
+}
+.more{
+    border:none;
+    background: none;
+}
+.bhk6{
+    display: none;
+}
+.angleUp4{
+    display: none;
+}
+.angleUp5{
+    display: none;
+}
+.angleUp6{
+    display: none;
+}
+.angleUp7{
+    display: none;
+}
+.dropDown8{
+    display: none;
+}
+.dropDown9{
+    display: none;
+}
+.moream{
+    display: none;
+}
+.bathroom{
+    display: none;
+}
+.furnising{
+    display: none;
+}
+.filterSection button{
+    border: none;
+    background: none;
+}
+.angleUp3{
+    display: none;
+}
+.results select{
+    border: none;
+}
+.whiteButton{
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    background-color: white;
+}
+.whiteButton:hover{
+    background-color: var(--orange);
+    color: white;
+    border: none;
+}
+.mainProperty{
+    display: flex;
+    justify-content: space-between;
+}
+.flats{
+    display: flex;
+    justify-content: space-between;
+}
+.sort{
+    text-align: end;
+}
+.bed{
+    width: 20px;
+}
+.results{
+    max-width: 1000px;
+    width: 100%;
+}
+.results select{
+    text-align: end !important;
+    margin-left: auto !important;
+}
+ul{
+    list-style: none;
+}
+.flatImage{
+    padding: 20px;
+}
+.flats{
+  box-shadow: 0 0 10px rgb(149, 143, 143);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.apertment{
+    max-width: 400px;
+    width: 100%;
+    padding:25px 10px;
+}
+.rupees{
+    background-image: linear-gradient(to bottom, #ffd68b, #f0e5cf);
+    padding: 20px;
+    text-align: center;
+}
+.rupees .btn{
+    display: block;
+    margin: 20px;
+}
+.rupees .orangeButton:hover{
+    color: white;
+    border: none;
+    background-image: repeating-linear-gradient(to right, var(--orange), black);
+    box-shadow: 0 5px 8px rgb(59, 58, 58);
+}
+.range p{
+    margin-bottom: 0;
+}
+.rupees .orangeButton{
+    box-shadow: 0 5px 10px rgb(38, 37, 37);
+}
+.results h4{
+    margin-bottom: 20px;
+}
+.apertment ul{
+    margin-left: -25px;
+}
+.apertment ul li{
+    margin-bottom: 15px;
+    color: var(--textColor);
+}
+.apertment p{
+    max-width: 324px;
+    line-height: auto;
+    font-size: 16px;
+}
+.lacs{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.location{
+    color: black;
+}
+.icon{
+    margin-left: 25px;
+}
+.circle{
+    padding: 10px 18px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 5px 10px black;
+}
+/* Footer */
+.footer{
+    background-image: url('../images/Group\ 57\ \(2\).png');
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+}
+.footer .orangeButton{
+    margin: 0;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.footer ul{
+    list-style: none;
+}
+.col{
+    margin: 20px auto !important;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color: #FFA600;
+}
+.footer ul li a{
+    color: white;
+    margin-bottom: 10px;
+}
+.paraFotter{
+    font-size: 25px !important;
+    font-weight: 500 !important;
+}
+.companySer{
+    margin-left: 30px;
+}
+.newsLett{
+    margin-top: 30px;
+}
+.copy{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.reach a img{
+    width: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.reach a img:hover{
+    border: 2px solid black;
+    box-shadow: 0 0 10px white;
+    border-radius: 50%;
+}
+.footer .orangeButton:hover{
+    color: white;
+    background-image: repeating-linear-gradient(to right, var(--orange), black);
+
+}
+@media screen and (max-width:991px){
+    .flats{
+        margin-left: 20px;
+    }
+      .flats{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }  
+    .apertment{
+        margin: 130px  auto!important;
+    } 
+}
+@media screen and (max-width:767px){
+    .apertment{
+        margin: 0 auto !important;
+        padding: 10px 10px;
+    }
+}
+@media screen and (max-width:575px){
+    .mainProperty{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+      .filter{
+        max-width: 800px;
+        width: 100% !important;
+        margin: 20px auto;
+    }
+    .apertment{
+        margin: 80px  auto!important;
+    }
+    .results{
+        margin: 20px auto;
+        padding-left: 0;
+    }
+  
+}
+@media screen and (max-width:489px){
+     .apertment{
+        margin: 30px  auto!important;
+    }
+    .text img{
+        width: 160px;
+    }
+}

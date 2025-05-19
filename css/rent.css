@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orange:#FFA600;
+    --textColor:rgb(162, 160, 160);
+    --grey:#D6D2D2;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container2{
+    max-width: 1164px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.section_padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* Navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;   
+}
+.text{
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    line-height: auto;
+    font-weight: 500;
+    color: white;
+}
+.home{
+    color: var(--orange);
+    font-size: 42px;
+}
+.navbar .nav-item a{
+    font-size: 22px;
+    font-weight: 500;
+    padding:0 20px !important;
+    color: white !important;
+}
+.navbar .nav-item a:hover{
+    border-bottom: 2px solid #FFA600;
+}
+.active{
+    border-bottom: 2px solid #FFA600;
+}
+.propertySell{
+    border: 3px solid var(--orange);
+    font-weight: 500;
+    color: white;
+}
+.propertySell:hover{
+    color: white;
+    border: none;
+    background-image: linear-gradient(to left,  rgb(47, 47, 47), #e99a05);
+    box-shadow: 0 5px 5px white;
+}
+.contact{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.contact:hover{
+    background-color: #FFA600;
+    color: white;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    border-top: 0;
+    background-color: rgb(90, 89, 89);
+}
+/* banner */
+.banner{
+    background-image: url('../images/Group\ 57\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    padding-bottom: 100px;
+    /* text-align: center; */
+}
+.bannerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-bottom: 100px; */
+}
+.bannerContent h2{
+    padding-top: 136px;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+h1{
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-weight: 500px;
+}
+.orangeText{
+    color: var(--orange);
+}
+.rent{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.whiteButton{
+    background-color: white;
+    color: black;
+    margin: 20px;
+}
+.whiteButton:hover{
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+.orangeButton{
+    background-color: var(--orange);
+    color: white;
+    margin: 41px auto;
+    border: none;
+}
+.orangeButton:hover{
+    background: none;
+    border: 2px solid var(--orange);
+    color: var(--orange);
+}
+.propertyForm form{
+    background-color: white;
+    color: black;
+    padding: 15px 32px;
+    border-radius: 10px;
+}
+.propertyForm form{
+    display: flex;
+    justify-content: space-between;
+}
+.glassEffect{
+    background: #ffffff84;
+    backdrop-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
+    border: 15px solid rgba(255, 255, 255, 0.388);
+    border-radius: 10px;
+}
+.type{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 38px; */
+}
+.type .btn{
+   /* margin-top: 0px; */
+   margin-bottom: 0;
+}
+.type select{
+    padding: 5px 15px;
+    padding-right: 80px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.type a{
+    display: inline-block;
+}
+/* Buy Your Property */
+.right{
+    position: relative;
+}
+.btn{
+    box-shadow: 0 5px 10px black;
+}
+.buyProperty .orangeButton:hover{
+    color: white;
+    border: none;
+    background-image: linear-gradient(to left,  rgb(47, 47, 47), #e99a05);
+    box-shadow: 0 5px 5px rgb(25, 25, 25);
+}
+.propertyImage{
+    display: flex;
+    padding-bottom: 10px;
+    position: relative;
+}
+.propertyImage img{
+    margin-top: 13px;
+    padding-right: 15px;
+    position: relative;
+}
+.leftImage img{
+    min-height: 212px;
+}
+.rightImage img{
+    min-height: 436px;
+}
+.buyPropertycontent{
+    padding-top: 50px;
+}
+.para{
+    max-width: 430px;
+    font-size: 18px;
+    line-height: auto;
+    color: rgb(162, 160, 160);
+    font-weight: 300;
+}
+.find{
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 453px;
+    width: 100%;
+    color: rgb(149, 149, 149);
+    margin-top: 14px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+.buyProperty .btn{
+    margin-top: 33px;
+}
+.border{
+    width: 100px;
+    position: absolute;
+    /* right: 10px;
+    bottom: 0; */
+    left: 0;
+}
+.border1{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+.border2{
+    width: 100px;
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+}
+.border3{
+    width: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* Top Properties */
+h2{
+    margin-bottom: 35px;
+}
+.topProperties h5{
+    font-size: 26px;
+}
+.topProperties .card-text{
+    font-size: 18px;
+    color: rgb(162, 160, 160);
+    margin-bottom: 0 !important;
+}
+.topProperties .orangeText{
+    font-size: 18px;
+    padding-top: 0;
+}
+.topProperties .col{
+    margin: 20px auto;
+}
+.topProperties .row{
+    max-width: 1164px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.topProperties .row .col .card{
+    border: none;
+    box-shadow: 0 10px 5px rgb(179, 176, 176);
+}
+.topProperties .card:hover{
+    box-shadow: 0 0 15px black !important;
+}
+.topProperties .card img{
+    position: relative;
+}
+.topProperties .btn{
+    position: absolute;
+    z-index: 500;
+    right: 10px;
+    top: 10px !important;
+    margin-top: 0;
+}
+.topProperties .btn:hover{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    border: none;
+}
+.maintoP{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.arow  a{
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+.arow {
+   padding: 10px;
+}
+/* Sell Your Property */
+.sellProperty .leftColp{
+    position: relative;
+}
+.sellProperty .row .col{
+    margin: 20px auto !important;
+}
+.sellProperty .btn{
+    margin-top: 30px;
+}
+.sellProperty .orangeButton:hover{
+    color: white;
+    border: none;
+    background-image: linear-gradient(to left,  rgb(47, 47, 47), #e99a05);
+    box-shadow: 0 5px 5px rgb(50, 50, 50);
+}
+.sellPro{
+    position: relative;
+    /* margin-right: 30px; */
+    padding-top: 10px !important;
+}
+.sellPro img{
+    min-height: 520px !important;
+    position: relative;
+}
+.sellPro{
+    padding-bottom: 10px;
+    min-height: 390px !important;
+}
+.border5{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 200;
+}
+.sellContent{
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.border4{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+/* Explore Famous Cities*/
+.city{
+    position: relative;
+}
+.cities .row .col{
+    position: relative;
+}
+.cities h3{
+    position: absolute;
+    z-index: 200;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.col{
+    margin: 20px auto !important;
+}
+.cities p{
+    margin-top: 16px;
+    color: var(--textColor);
+    font-size: 22px;
+}
+.cities .row .col img:hover{
+    box-shadow: 0 0 15px rgb(79, 79, 79);
+}
+/* why choose us */
+.choose{
+    background-image: url('../images/Group\ 58.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.choose .lorem{
+    max-width: 557px;
+    font-size: 20px;
+    margin: auto;
+    font-weight: 300;
+}
+.choose .card{
+    background: none;
+    color: white;
+    border: none;
+    margin-top: 80px;
+    padding: 15px;
+}
+.choose .card:hover{
+    box-shadow: 0 0 15px rgb(143, 141, 141);
+    
+}
+.choose .card h5{
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+.choose .row .col .card img{
+    width: 30%;
+    margin: auto;
+}
+.verifi img{
+    width:27% !important;
+}
+/* our Testimonials */
+.testimonials{
+    background-color: #f5f4f3;
+}
+.testimonials h2{
+    text-align: center;
+}
+.testimonials .lorem{
+    max-width: 568px;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.testimonials .row{
+    max-width: 1164px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.star{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-left: 15px;
+    margin-top: 25px;
+}
+.star2{
+    margin-top: 40px !important;
+}
+.star1{
+    margin-top: 20px;
+}
+.testimonials .arow{
+    margin-right: 15px;
+}
+.testimonials .arow a{
+     background: none;
+    border: 2px solid var(--orange);
+    color: var(--orange);
+}
+.star p{
+    margin-bottom: 0 !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.arow a{
+    box-shadow: 0 5px 10px black;
+}
+.greyStar{
+    color: var(--grey);
+}
+.testimonials .row .col{
+    box-shadow: 10px 10px 5px #f7e0a3;
+    margin:0 25px;
+    padding:15px 0;
+     margin-right: 25px !important;
+     background-color: white;
+     padding-right: 0 !important;
+     border-radius: 10px;
+}
+.testimonials .row .col p{
+    padding-left: 15px;
+   
+}
+.testimonials .row .col:hover{
+    box-shadow: 0 0 25px #f3c166;
+}
+.testimonials .arow a:hover{
+    background-color: #FFA600;
+    color: white;
+}
+/* Download Our App */
+.app{
+    background-image: url('../images/Rectangle\ 25.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.app h2,.appPara{
+    text-align: center;
+}
+.correct{
+    border: 1.8px solid black;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+.appMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: inline-block;
+}
+.store{
+    background-color: black;
+    color: white;
+    padding:10px 15px;
+    display: flex;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(102, 102, 102);
+}
+.store:hover{
+    box-shadow: 5px 5px 5px rgb(57, 57, 57) !important;
+}
+.store p{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.store img{
+    width: 40px;
+}
+.get{
+    font-size: 10px;
+}
+.getDo{
+    margin-top: 5px;
+}
+.google{
+    font-size: 17.78px;
+    font-weight: 500;
+}
+.rent .orangeButton:hover{
+    color: white;
+    border: none;
+    background-image: linear-gradient(to left,  rgb(47, 47, 47), #e99a05);
+    box-shadow: 0 5px 5px rgb(37, 37, 37);
+}
+/* Footer */
+.footer{
+    background-image: url('../images/Group\ 57\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+}
+.footer .orangeButton{
+    margin: 0;
+    border: 3px solid white;
+    box-shadow: none;
+}
+.footer ul li a{
+    color: white;
+    /* font-size: 18px; */
+    margin-bottom: 10px;
+}
+.footer a{
+    color: white;
+}
+.contactIcon{
+    margin-left: 0;
+    margin-right:30px;
+}
+.paraFotter{
+    font-size: 25px;
+    font-weight: 500;
+}
+.companySer{
+    margin-left: 30px;
+}
+.newsLett{
+    margin-top: 30px;
+}
+.copy{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer a:hover{
+    color: #FFA600;
+}
+.reach a img{
+    width: 35px;
+    margin: 10px 10px 0 0;
+}
+.btn{
+    box-shadow: 0 5px 10px black;
+}
+.reach a img:hover{
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 15px white;
+}
+.footer .btn{
+    box-shadow: none;
+}
+.footer .btn:hover{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width:991px){
+    .banner h2{
+        padding-top: 150px;
+    }
+    .propertyForm form{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .type{
+        margin-top: 15px;
+    }
+    .sellPro{
+        padding-bottom: 0 !important;
+    }
+    .border5{
+        bottom: 10px;
+    }
+    .testimonials .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:767px){
+    .buyProperty .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .sellProperty .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .sellProperty .col{
+        width: 100%;
+        margin: 20px auto !important;
+    }
+    .sellPro{
+        padding-bottom: 15px !important;
+    }
+    .border5{
+        bottom: 0;
+    }
+    .rent .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:575px){
+    .cities .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .testimonials .star{
+        margin-top: 15px;
+    }
+    .testimonials .arow{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:489px){
+    .testimonials .arow{
+        display: none;
+    }
+    .text img{
+        width: 160px;
+    }
+}

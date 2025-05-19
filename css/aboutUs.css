@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orange:#FFA600;
+    --textColor:rgb(162, 160, 160);
+    --grey:#D6D2D2;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.section_padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.orangeText{
+    color: var(--orange);
+}
+/* Navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+}
+.navbar ul{
+    list-style: none;
+}
+.text{
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    line-height: auto;
+    font-weight: 500;
+    color: white;
+}
+.home{
+    color: var(--orange);
+    font-size: 42px;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(90, 89, 89);
+    z-index: 100;
+    border-top: 0;
+}
+.navabr .nav-item a{
+    font-size: 22px;
+    font-weight: 500;
+    padding:0 20px !important;
+    color: white !important;
+}
+.navbar-nav .nav-item a{
+     font-size: 22px;
+    font-weight: 500;
+    padding:0 20px !important;
+    color: white !important;
+}
+.propertySell{
+    border: 3px solid var(--orange);
+    font-weight: 500;
+    color: white;
+}
+.propertySell:hover{
+    /* background-color: var(--orange); */
+    background-image: linear-gradient(to right, var(--orange), rgb(9, 9, 9));
+    color: white;
+    border: none;
+    box-shadow: 0 5px 5px #f3f2f1;
+}
+.contact{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.contact:hover{
+    background-color: #FFA600;
+    color: white;
+}
+.active{
+    border-bottom: 3px solid var(--orange);
+}
+.nav-item a:hover{
+    border-bottom: 3px solid var(--orange);
+}
+/* banner */
+.banner{
+    background-image: url('../images/Group\ 57\ \(3\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-bottom: 130px;
+}
+.home1 img{
+    width: 20px;
+    display: inline-block;
+}
+.banner a{
+    color: white;
+    font-size: 20px;
+    margin-top: 35px;
+}
+.home1{
+    color: white;
+}
+/* aboutUs */
+.agency{
+    padding-left: 30px !important;
+}
+.agency ul{
+    list-style: none;
+}
+h3{
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+.agency p{
+    max-width: 494px;
+    width: 100%;
+    line-height: auto;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.agency ul li{
+    margin-bottom: 20px;
+}
+.correct{
+    padding: 3px;
+    background-color: var(--orange);
+    color: white;
+    border-radius: 50%;
+}
+.work{
+    color: var(--textColor);
+    margin-bottom: 15px;
+}
+.team p{
+    max-width: 505px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.team ul li{
+    margin-bottom: 15px;
+}
+.aboutUs .col{
+    margin: 20px auto !important;
+}
+.aboutUs .row .our img:hover{
+    box-shadow: 0 0 25px black !important;
+    cursor: pointer;
+}
+/* why choose us */
+.choose{
+    background-image: url('../images/Group\ 58.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.choose .lorem{
+    max-width: 557px;
+    font-size: 20px;
+    margin: auto;
+    font-weight: 300;
+}
+.choose .card{
+    background: none;
+    color: white;
+    border: none;
+    margin-top: 80px;
+    padding: 15px;
+}
+.choose .card:hover{
+    box-shadow: 0 0 15px rgb(143, 141, 141);
+    /* padding-top: 10px; */
+}
+.choose .card h5{
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+.choose .row .col .card img{
+    width: 30%;
+    margin: auto;
+}
+.verifi img{
+    width:27% !important;
+}
+h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+/* our Testimonials */
+.testimonials{
+    background-color: #f5f4f3;
+}
+.testimonials h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.maintoP{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.testimonials .row{ 
+     max-width: 1164px !important;
+      width: 100%;
+      margin: 0 auto;
+}
+
+.testimonials .lorem{
+    max-width: 568px !important;
+    font-size: 20px !important;
+    margin: auto !important;
+    margin-bottom: 60px !important;
+    text-align: center !important;
+}
+
+.star{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-left: 15px;
+    margin-top: 25px;
+}
+.star2{
+    margin-top: 40px !important;
+}
+.star1{
+    margin-top: 20px;
+}
+.testimonials .arow{
+    /* margin-right: 15px; */
+    padding: 10px;
+}
+.testimonials .arow a{
+     background: none;
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    border-radius: 50%;
+    padding: 5px 10px;
+    box-shadow: 0 5px 10px rgb(24, 23, 23);
+}
+.star p{
+    margin-bottom: 0 !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.greyStar{
+    color: var(--grey);
+}
+.testimonials .row .col{
+    box-shadow: 10px 10px 5px #f7e0a3;
+    margin:0 15px;
+    padding:15px 15px;
+     /* margin-right: 25px !important; */
+     background-color: white;
+     padding-right: 0 !important;
+     border-radius: 10px;
+}
+.arow a:hover{
+    background-color: #FFA600;
+    color: white;
+}
+.testimonials .row .col p{
+    padding-left: 15px;
+   
+}
+.testimonials .row .col:hover{
+    box-shadow: 0 0 15px #efb242;
+}
+/* Footer */
+.footer{
+    background-image: url('../images/Group\ 57\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+}
+.footer .orangeButton{
+    margin: 0;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer .col{
+    margin: 20px auto !important;
+}
+.footer ul li a{
+    color: white;
+    /* font-size: 18px; */
+    margin-bottom: 10px;
+}
+.contactIcon{
+    margin-left: 0;
+    margin-right:30px;
+}
+.paraFotter{
+    font-size: 25px;
+    font-weight: 500;
+}
+.companySer{
+    margin-left: 30px;
+}
+.newsLett{
+    margin-top: 30px;
+}
+.footer a:hover{
+    color: #FFA600;
+}
+.copy{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer a{
+    color: white;
+}
+.orangeButton{
+    background-color: var(--orange);
+    color: white;
+}
+.orangeButton:hover{
+    color: white;
+    background-color: black;
+}
+.reach a img{
+    width: 35px !important;
+    margin: 10px auto;
+    margin-right: 12px !important;
+}
+.reach a img:hover{
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 15px white;
+}
+@media screen and (max-width:991px){
+    .testimonials .row{
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+    .testimonials .col{
+        margin: 20px auto !important;
+    }
+}
+@media screen and (max-width:767px){
+    .testimonials .row .col p{
+        font-size: 15px !important;
+    }
+    .testimonials .row .col{
+        padding:10px 0;
+        margin: 20px auto;
+    }
+    .testimonials .row .col img{
+        width: 50px;
+    }
+}
+@media screen and (max-width:575px){
+    .testimonials .star{
+        margin-top: 15px;
+    }
+    .testimonials .arow{
+        margin-left: 15px;
+    }
+    .testimonials .row .col p{
+        font-size: 10px;
+        /* max-width: 0; */
+    }
+    .testimonials .row .col{
+        width: 100%;
+    }
+    .testimonials .row .col img{
+        width: 40px;
+        height: 40px;
+    }
+    .testimonials .orangeText .star3{
+        font-size: 8px;
+    }
+    .star{
+        display: flex;
+        flex-direction: column;
+    }
+    .grayH{
+        margin: 5px auto;
+    }
+}
+@media screen and (max-width:489px){
+   .testimonials .arow{
+    display: none;
+   }
+   .text img{
+    width: 160px;
+   }
+}

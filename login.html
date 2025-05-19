@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form Document</title>
+    <!-- bootstarp css -->
+    <link rel="stylesheet" href="./bootstarp/css/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <div class="login">
+      <p class="cross">x</p>
+      <h2>Login</h2>
+      <p class="account">To Your Account</p>
+      <form>
+        <div class="mb-3">
+          <input
+            type="mail"
+            class="form-control mail"
+            id="formGroupExampleInput"
+            placeholder="Email Id"
+          />
+          <p class="error mailerr"></p>
+        </div>
+        <div class="mb-3">
+          <input
+            type="password"
+            class="form-control password"
+            id="formGroupExampleInput2"
+            placeholder="Password"
+          />
+        </div>
+        <p class="error passerr"></p>
+        <div class="mb-3 creatAccount">
+          <a href="./loginDone.html" class="btn orangeButton loginDone">Login</a>
+        </div>
+        <div class="mb-3 forget">
+          <a href="#">Forget Password?</a>
+        </div>
+        <div class="mb-3 user">
+          <p class="agree">Old User? <a href="./registerForm.html">Create an Account</a></p>
+        </div>
+      </form>
+    </div>
+
+     <!-- popper cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstarp js -->
+    <script src="./bootstarp/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- js -->
+     <script src="./js/login.js"></script>
+  </body>
+</html>
