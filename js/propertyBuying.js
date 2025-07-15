@@ -19,20 +19,25 @@ $(function(){
       
     })
 
-    // city
-    //  $('.dropDown1').on('click',function(){
-    //     $('.cityProperty').slideUp();
-    //     $(this).hide();
-    //     $('.angleUp1').show();
-    // })
+     $('.bar').on('click',function(){
+      $('nav')
+      .css({backgroundColor:"rgb(63, 63, 63)"});
+    })
 
-    //  $('.angleUp1').on('click',function(){
-    //     $('.cityProperty').slideDown();
-    //     $(this).hide();
-    //     $('.dropDown1').show();
-    //     $('.wraper').hide();
-    //     $('.more').show();
-    // })
+    city
+     $('.dropDown1').on('click',function(){
+        $('.cityProperty').slideUp();
+        $(this).hide();
+        $('.angleUp1').show();
+    })
+
+     $('.angleUp1').on('click',function(){
+        $('.cityProperty').slideDown();
+        $(this).hide();
+        $('.dropDown1').show();
+        $('.wraper').hide();
+        $('.more').show();
+    })
 
     $('.moreCity').on('click',function(){
         $('.mumbai').slideDown();

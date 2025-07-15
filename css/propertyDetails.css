@@ -64,6 +64,9 @@ img{
     font-weight: 500;
     color: white;
 }
+.bar{
+    color: white;
+}
 .home{
     color: var(--orange);
     font-size: 42px;
@@ -260,7 +263,11 @@ img{
 }
 .park{
     border-right: 1px solid var(--textColor);
-    padding: 15px 20px;
+    padding: 15px 10px;
+    margin-right: 40px;
+}
+.aminities ul li{
+    margin-top: 10px;
 }
 .aminities{
     padding-bottom: 100px;

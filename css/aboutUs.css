@@ -52,6 +52,9 @@ img{
     font-weight: 500;
     color: white;
 }
+.bar{
+    color: white;
+}
 .home{
     color: var(--orange);
     font-size: 42px;
@@ -214,6 +217,25 @@ h2{
     margin-bottom: 30px;
 }
 /* our Testimonials */
+.swiper {
+    width: 100%; 
+    height: 100%;
+}
+
+.swiper-slide {
+    /* max-width: 360px; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+     /* align-items: center; */
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .testimonials{
     background-color: #f5f4f3;
 }
@@ -223,7 +245,7 @@ h2{
 }
 .maintoP{
     display: flex !important;
-    justify-content: space-between !important;
+    justify-content: center !important;
     align-items: center !important;
 }
 .testimonials .row{ 
@@ -247,7 +269,7 @@ h2{
     margin-top: 25px;
 }
 .star2{
-    margin-top: 40px !important;
+    margin-top: 45px !important;
 }
 .star1{
     margin-top: 20px;
@@ -256,6 +278,9 @@ h2{
     /* margin-right: 15px; */
     padding: 10px;
 }
+/* .blake{
+    margin-top: 20px !important;
+} */
 .testimonials .arow a{
      background: none;
     border: 2px solid var(--orange);
@@ -263,6 +288,7 @@ h2{
     border-radius: 50%;
     padding: 5px 10px;
     box-shadow: 0 5px 10px rgb(24, 23, 23);
+    margin-top: 40px;
 }
 .star p{
     margin-bottom: 0 !important;

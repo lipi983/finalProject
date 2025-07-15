@@ -61,6 +61,9 @@ img{
     font-weight: 500;
     color: white;
 }
+.bar{
+    color: white;
+}
 .home{
     color: var(--orange);
     font-size: 42px;
@@ -253,6 +256,25 @@ h3{
     font-weight: 500;
 }
 /* Top Properties */
+.swiper {
+    width: 100%; 
+    height: 100%;
+}
+
+.swiper-slide {
+    /* max-width: 360px; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+     /* align-items: center; */
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 h2{
     margin-bottom: 35px;
 }
@@ -287,27 +309,39 @@ h2{
     right: 10px;
     top: 10px !important;
     margin-top: 0;
+   
 }
 .topProperties .btn:hover{
     background-color: black;
     border: none;
     color: white;
+     box-shadow: 0 10px 5px rgb(59, 59, 59);
+   
 }
 .maintoP{
     display: flex;
-    justify-content: space-between;
-   align-items: center;
+    justify-content: center !important;
+    align-items: center;
 }
 .arow  a{
     padding: 10px 12px;
     border-radius: 50%;
+     box-shadow: 0 10px 5px rgb(44, 44, 44);
 }
 .arow {
    padding: 10px;
+   
+}
+.arow a{
+ box-shadow: 0 10px 5px rgb(67, 66, 66);
+}
+.arow a:hover{
+     box-shadow: 0 5px 5px rgb(67, 66, 66);
 }
 .mainRow{
     max-width: 1164px;
     width: 100%;
+    margin: auto;
 }
 .mainRow .col{
     position: relative;
@@ -342,6 +376,7 @@ h2{
     margin-bottom: 60px;
     text-align: center;
 }
+
 .maintoP{
     display: flex;
     justify-content: space-between;
@@ -369,6 +404,7 @@ h3{
 .testimonials .arow a:hover{
     background-color: #FFA600;
     color: white;
+    box-shadow: 0 5px 5px rgb(62, 61, 61);
 }
 .testimonials .arow a{
      background: none;
@@ -376,6 +412,7 @@ h3{
     color: var(--orange);
     border-radius: 50%;
     padding: 5px 10px;
+    box-shadow: 0 10px 5px rgb(56, 56, 56);
 }
 .star p{
     margin-bottom: 0 !important;
@@ -388,6 +425,7 @@ h3{
 .testimonialRow{
     max-width: 1164px;
     width: 100%;
+    margin: auto;
 }
 .testimonials .row .col{
     box-shadow: 10px 10px 8px #f5d680;
@@ -496,15 +534,15 @@ h3{
 }
 @media screen and (max-width:991px){
     .testimonials .row{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        /* display: flex; */
+        /* flex-direction: column;
+        flex-wrap: wrap; */
     }
 }
 @media screen and (max-width:767px){
     .mainRow{
-        flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-direction: column;
+        flex-wrap: wrap; */
     }
     .mainRow .col{
         width: 100%;
@@ -561,9 +599,9 @@ h3{
 }
 @media screen and (max-width:350px){
    .footer .row{
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
    }
    .footer .row .col{
     width: 100%;

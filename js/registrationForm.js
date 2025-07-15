@@ -10,7 +10,7 @@ $(document).ready(function(){
         if(data3.length<1)
         {
             $('.nameErr').show();
-            $('.nameErr').html("REquired Field")
+            $('.nameErr').html("Required Field")
         }
         else{
             $('.nameErr').hide();
@@ -21,7 +21,7 @@ $(document).ready(function(){
         if(data4.length<1)
         {
             $('.numerr').show();
-            $('.numerr').html("REquired Field")
+            $('.numerr').html("Required Field")
         }
         else if(data4.length>10)
         {

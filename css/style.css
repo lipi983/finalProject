@@ -68,9 +68,16 @@ img{
     padding:0 20px !important;
     color: white !important;
 }
+.nav{
+    color: rgb(63, 63, 63);
+}
+
 .propertySell{
     border: 3px solid var(--orange);
     font-weight: 500;
+    color: white;
+}
+.bar{
     color: white;
 }
 .navbar img{
@@ -322,7 +329,7 @@ h2{
 
 .maintoP{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
    align-items: center;
 }
 .arow  a{
@@ -451,9 +458,29 @@ h2{
     width:27% !important;
 }
 /* our Testimonials */
+.swiper {
+    width: 100%; 
+    height: 100%;
+}
+
+.swiper-slide {
+    /* max-width: 360px; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+     /* align-items: center; */
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .testimonials{
     background-color: #f5f4f3;
 }
+
 .test{
      max-width: 1400px;
     width: 100%;
@@ -699,12 +726,12 @@ img{
     }
 }
 @media screen and (max-width:489px){
-    .testimonials .arow{
+    /* .testimonials .arow{
         display: none;
     }
     .topProperties .arow a{
      display: none;
-    }
+    } */
     .text img{
         width: 160px;
     }

@@ -76,4 +76,9 @@ $(document).ready(function(){
       
     })
 
+     $('.bar').on('click',function(){
+      $('nav')
+      .css({backgroundColor:"rgb(63, 63, 63)"});
+    })
+
 })

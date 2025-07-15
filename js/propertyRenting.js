@@ -18,6 +18,11 @@ $(function(){
         stickyNav();
       
     })
+
+     $('.bar').on('click',function(){
+      $('nav')
+      .css({backgroundColor:"rgb(63, 63, 63)"});
+    })
     
 // city
      $('.dropDown1').on('click',function(){
