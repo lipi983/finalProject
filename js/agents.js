@@ -1,3 +1,4 @@
+AOS.init();
 $(function(){
     let stickyNavTop=$('nav').offset().top;
     // console.log(stickyNavTop)

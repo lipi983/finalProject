@@ -17,14 +17,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
     />
+
     <!-- bootstarp css -->
     <link rel="stylesheet" href="./bootstarp/css/bootstrap.min.css" />
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-
+    <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -95,7 +98,12 @@
       <!-- banner -->
       <section class="banner inter">
         <div class="container2">
-          <div class="bannerContent">
+          <div
+            class="bannerContent"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <h2>Welcome to Our Website</h2>
             <h1>Get your <span class="orangeText">Dream</span> Home Easily</h1>
             <div class="rent">
@@ -103,7 +111,12 @@
               <a href="./rent.html" class="btn whiteButton"> Rent </a>
             </div>
           </div>
-          <div class="glassEffect">
+          <div
+            class="glassEffect"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <div class="propertyForm">
               <form>
                 <div class="type">
@@ -164,7 +177,12 @@
       <section class="buyProperty section_padding inter">
         <div class="container2">
           <div class="row">
-            <div class="col buyPropertycontent">
+            <div
+              class="col buyPropertycontent"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <h2>Buy Your Property</h2>
               <p class="find">
                 Find from houses, flats, villas, townhouses and more
@@ -179,7 +197,12 @@
                 >Buy Now</a
               >
             </div>
-            <div class="col right">
+            <div
+              class="col right"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <img src="./images/Vector 6.png" class="border" alt="border" />
               <img src="./images/Vector 7.png" class="border1" alt="border" />
               <img src="./images/Vector 8.png" class="border2" alt="border" />
@@ -206,8 +229,19 @@
         <div class="test">
           <div class="container2">
             <div class="row">
-              <h2>Top Properties</h2>
-              <div class="swiper mySwiper">
+              <h2
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                Top Properties
+              </h2>
+              <div
+                class="swiper mySwiper"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="col">
@@ -404,7 +438,12 @@
               </div>
             </div>
           </div>
-          <div class="maintoP">
+          <div
+            class="maintoP"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <div class="arow">
               <a href="#" class="orangeButton arow3">
                 <i class="fa-solid fa-arrow-left"></i>
@@ -422,7 +461,12 @@
       <section class="sellProperty section_padding inter">
         <div class="container2">
           <div class="row">
-            <div class="col leftColp">
+            <div
+              class="col leftColp"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <img src="./images/Vector 5.png" class="border4" alt="border" />
               <img src="./images/Vector 8.png" class="border5" alt="border" />
               <img
@@ -431,7 +475,12 @@
                 alt="propertysell"
               />
             </div>
-            <div class="col sellContent">
+            <div
+              class="col sellContent"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <h2>Sell Your Property</h2>
               <p class="find">
                 Sell from houses, flats, villas, townhouses and more
@@ -452,9 +501,15 @@
       <!-- Explore Famous Cities -->
       <section class="cities section_padding inter">
         <div class="container2">
-          <h2>Explore Famous Cities</h2>
+          <h2
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Explore Famous Cities
+          </h2>
           <div class="row text-center">
-            <div class="col">
+            <div class="col" data-aos="fade-right" data-aos-duration="700">
               <img
                 src="./images/Rectangle 16 (2).png"
                 class="city"
@@ -463,7 +518,7 @@
               <h3>Kolkata</h3>
               <p>50,000+ Properties</p>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up" data-aos-duration="700">
               <img
                 src="./images/Rectangle 17 (1).png"
                 class="city"
@@ -472,14 +527,14 @@
               <h3>Delhi</h3>
               <p>1,20,000+ Properties</p>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-left" data-aos-duration="700">
               <img src="./images/Rectangle 18.png" class="city" alt="mumbai" />
               <h3>Mumbai</h3>
               <p>68,000+ Properties</p>
             </div>
           </div>
           <div class="row text-center">
-            <div class="col">
+            <div class="col" data-aos="fade-right" data-aos-duration="700">
               <img src="./images/Rectangle 21.png" class="city" alt="chennai" />
               <h3>Chennai</h3>
               <p>25,000+ Properties</p>
@@ -493,7 +548,7 @@
               <h3>Bangalore</h3>
               <p>74,000+ Properties</p>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-left" data-aos-duration="700">
               <img
                 src="./images/Rectangle 20.png"
                 class="city"
@@ -509,7 +564,12 @@
       <section class="rent section_padding inter">
         <div class="container2">
           <div class="row">
-            <div class="col buyPropertycontent">
+            <div
+              class="col buyPropertycontent"
+              data-aos="fade-right"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <h2>Rent A Property</h2>
               <p class="find">
                 Find from houses, flats, villas, townhouses and more
@@ -524,7 +584,12 @@
                 >Rent Now</a
               >
             </div>
-            <div class="col right">
+            <div
+              class="col right"
+              data-aos="fade-left"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <img src="./images/Vector 6.png" class="border" alt="border" />
               <img src="./images/Vector 7.png" class="border1" alt="border" />
               <img src="./images/Vector 8.png" class="border2" alt="border" />
@@ -547,14 +612,35 @@
         </div>
       </section>
       <!-- Why Choose Us -->
-      <section class="choose section_padding inter">
+      <section
+        class="choose section_padding inter"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
         <div class="container2">
-          <h2>Why Choose Us</h2>
-          <p class="lorem">
+          <h2
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            Why Choose Us
+          </h2>
+          <p
+            class="lorem"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             Lorem ipsum dolor sit amet consectetur. Massa malesuada facilisis ut
             vestibulum aliquam nunc euismod.
           </p>
-          <div class="row">
+          <div
+            class="row"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <div class="col">
               <div class="card">
                 <img
@@ -621,14 +707,30 @@
       <!-- Our Testimonials -->
       <section class="testimonials section_padding inter" id="ourTestimonials">
         <div class="test">
-          <h2>Our Testimonials</h2>
-          <p class="lorem">
+          <h2
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            Our Testimonials
+          </h2>
+          <p
+            class="lorem"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             Lorem ipsum dolor sit amet consectetur. Eleifend interdum nulla
             libero dolor duis sapien et.
           </p>
 
           <div class="container2">
-            <div class="row">
+            <div
+              class="row"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
@@ -887,16 +989,37 @@
       <!-- Download Our App -->
       <section class="app section_padding inter">
         <div class="container2">
-          <h2>Download Our App</h2>
-          <p class="appPara">
+          <h2
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            Download Our App
+          </h2>
+          <p
+            class="appPara"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <i class="fa-solid fa-check correct"></i>
             Lorem ipsum dolor sit amet consectetur.
           </p>
-          <p class="appPara">
+          <p
+            class="appPara"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <i class="fa-solid fa-check correct"></i>
             Mauris morbi velit facilisis enim sagittis.
           </p>
-          <div class="appMain">
+          <div
+            class="appMain"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <div class="store">
               <div>
                 <img src="./images/Group (32).png" alt="app" />
@@ -1032,6 +1155,8 @@
     <!-- bootstarp js -->
     <script src="./bootstarp/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- js -->
